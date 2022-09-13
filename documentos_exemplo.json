@@ -1,0 +1,85 @@
+
+####Primeiro
+
+POST origem/_doc/001
+{
+    "id" : "001",
+    "nome_fabricante": "Fabricante 1",
+    "descricao_fabricante": "fabrica produtos signolos e não sigilosos",
+    "sigilo": "false",
+    "itens": [
+        {
+            "nome": "oculos",
+            "valor": "1.00",
+            "sigilo": "false",
+            "descricao": "oculos de proteção individual",
+            "categoria": 2
+        },
+        {
+            "nome": "placa para blindagem antiaérea",
+            "valor": "9.99",
+            "sigilo": "true",
+            "descricao": "placa para fabricação de carros blindados",
+            "categoria": 999
+        }
+    ]
+}
+
+####Segundo
+
+POST origem/_doc/002
+{
+    "id" : "002",
+    "nome_fabricante": "Fabricante 2",
+    "descricao_fabricante": "Esse fabricante não existe",
+    "sigilo": "true",
+    "itens": [
+        {
+            "nome": "Yakult 20L",
+            "valor": "150.00",
+            "sigilo": "true",
+            "descricao": "Bebida Láctea",
+            "categoria": 44
+        },
+        {
+            "nome": "Taça do mundial do Palmeiras",
+            "valor": "9999.99",
+            "sigilo": "true",
+            "descricao": "Taça do campeonato mundial do Palmeiras",
+            "categoria": 44
+        }
+    ]
+}
+
+####Terceiro
+
+POST origem/_doc/003
+{
+    "id" : "003",
+    "nome_fabricante": "Fabricante 3",
+    "descricao_fabricante": "Artigos exportivos",
+    "sigilo": "false",
+    "itens": [
+        {
+            "nome": "Bola",
+            "valor": "20.00",
+            "sigilo": "false",
+            "descricao": "Revistimento Sintético",
+            "categoria": 2
+        },
+        {
+            "nome": "Chuteira Nike",
+            "valor": "99.00",
+            "sigilo": "false",
+            "descricao": "Chuteira Society",
+            "categoria": 11
+        },
+        {
+            "nome": "Camisa Corinthians",
+            "valor": "100000.00",
+            "sigilo": "false",
+            "descricao": "Camisa mais bonita do mundo",
+            "categoria": 9
+        }
+    ]
+}
